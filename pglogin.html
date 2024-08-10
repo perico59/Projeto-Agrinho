@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="Agrinho-CSS/pglogin.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Salsa:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="pg-login">
+			<img class="cesf+-icon" alt="" src="Img/Cesf+.png">
+    		<div class="fazer-login">
+				<label for="caixa-login"></label>
+				<input type="text" name="login" id="caixa-login" placeholder="Insira seu @escola ou CGM">
+			</div>
+    		<div class="senha">
+      			<label for="login-senha"></label>
+				<input type="text" name="password" id="login-senha" placeholder="Inserir senha" minlength="6">
+    		</div>
+    		<div class="esqueceu-sua-senha">Esqueceu sua senha?</div>
+			<a href="pginicial.html">
+				<button  class="botao-entrar">
+					ENTRAR
+				</button>
+			</a>
+    		<div class="cadastre-se">Não tem uma conta? <br>
+				<a href="pgcadastro.html">
+					Cadastre-se
+				</a>
+			</div>
+      			
+			<img src="./Img/Logo Cesf.png" alt="Logo-Cesf" id="logo-cesf">
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var cadastreSeText = document.getElementById("cadastreSeText");
+    		if(cadastreSeText) {
+      			cadastreSeText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var botoContainer = document.getElementById("botoContainer");
+    		if(botoContainer) {
+      			botoContainer.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}</script></body>
+</html>
