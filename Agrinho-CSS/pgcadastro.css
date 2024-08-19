@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sansa', sans-serif;
+}
+
+.cesf-icon{
+    text-align: center;
+    width: 225px;
+    padding-left: 50px;
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.voltar-button{
+    height: 25px;
+    align-items: center;
+    background-color: #F2E782;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Salsa', sans-serif;
+    color: #096F00;
+    background-color: #CAFFB1;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: solid 1px #096F00;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+input{
+    font-family: 'Salsa', sans-serif;
+    border-radius: 8px;
+    background-color: #F2E782;
+    border: solid 1px #096F00;
+    padding: 3px;
+    height: 27px;
+    width: 339px;
+    margin: 6px;
+}
+
+.concluir{
+    margin-top: -10px;
+    text-align: center;
+}
+
+.concluir button{
+    cursor: pointer;
+    font-family: 'Salsa', sans-serif;
+    background-color: #2CA531;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 19px;
+    border: solid 1px #096F00;
+    padding: 13px;
+}
+
+#logo-cesf{
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}

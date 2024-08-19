@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sansa', sans-serif;
+}
+
+.cesf-icon{
+    text-align: center;
+    width: 250px;
+    padding-left: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px 0 7px;
+    margin-bottom: 10px;
+}
+
+.destaque{
+    color: #043001;
+}
+
+nav a{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #096F00;
+    font-family: 'Salsa';
+    font-size: 19px;
+}
+
+ion-icon{
+    font-size: 20px;
+    margin: auto;
+    color: rgb(39, 10, 10);
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button{
+    background-color: #fff;
+    border: none;
+}
+
+.menu-button{
+    height: 25px;
+    align-items: center;
+    background-color: #F2E782;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Righteous', sans-serif;
+    color: #096F00;
+    margin-bottom: 40px;
+}
+
+#almoco-title{
+    font-family: 'Salsa', sans-serif;
+    font-size: 19px;
+    color: #22731B;
+}
+
+.container2{
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2E782;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.container2 p{
+    font-family: 'Salsa';
+    font-size: 30px;
+}
+
+#combo{
+    margin-top: 40px;
+    font-family: 'Salsa', sans-serif;
+    font-size: 19px;
+    color: #22731B;
+}
+
+.container3{
+    display: flex;
+    padding: 25px 25px 15px 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2E782;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.container3 p{
+    font-family: 'Life Savers', sans-serif;
+    font-size: 13px;
+}
+
+.container3 section{
+    padding: 0 10px 0 10px;
+}
+
+.valor{
+    font-size: 22px;
+    font-family: 'Salsa', sans-serif;
+    background-color: #F2E782;
+    padding: 0 25px 0 25px;
+}
+
+#logo-cesf{
+    margin-top: 20px;
+}
+
+/*MENU MOBILE*/
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Salsa', sans-serif;
+    text-align: left;
+    font-size: 26px;
+    border: 1px solid #096F00;
+    position: absolute;
+    display: none;
+}
+
+.dropdown-menu a{
+    padding: 3px;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}

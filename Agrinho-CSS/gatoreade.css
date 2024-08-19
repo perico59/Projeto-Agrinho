@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sansa', sans-serif;
+}
+
+.cesf-icon{
+    text-align: center;
+    width: 250px;
+    padding-left: 90px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px 0 7px;
+    margin-bottom: 10px;
+}
+
+.destaque{
+    color: #043001;
+}
+
+nav a{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #096F00;
+    font-family: 'Salsa';
+    font-size: 19px;
+    padding: 0 15px 0 15px;
+}
+
+ion-icon{
+    font-size: 20px;
+    margin: auto;
+    color: rgb(39, 10, 10);
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo{
+    margin-top: 30px;
+    font-family: 'Salsa', sans-serif;
+    color: #2B2828;
+    width: 100%;
+    background-color: #CAFFB1;
+    border: 1px solid #096F00;
+}
+
+.foto-sanduiche{
+    margin-top: 30px;
+    width: 200px;
+    border: 1px solid #096F00;
+}
+
+ul li{
+    font-family: 'Salsa', sans-serif;
+    text-align: left;
+}
+
+ul{
+    margin-left: 40px;
+}
+
+.container2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container2 button{
+    cursor: pointer;
+    font-family: 'Salsa', sans-serif;
+    color: white;
+    background-color: #096F00;
+    border: 1px solid #096F00;
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 8px;
+}

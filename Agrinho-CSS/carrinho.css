@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sansa', sans-serif;
+}
+
+.cesf-icon{
+    text-align: center;
+    width: 250px;
+    padding-left: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px 0 7px;
+    margin-bottom: 10px;
+}
+
+.destaque{
+    color: #043001;
+}
+
+nav a{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #096F00;
+    font-family: 'Salsa';
+    font-size: 19px;
+}
+
+ion-icon{
+    font-size: 20px;
+    margin: auto;
+    color: rgb(39, 10, 10);
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    font-family: 'Salsa', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    background-color: #096F00;
+}
+
+.produto{
+    background-color: #DCFFCF;
+    margin-top: 30px;
+    font-family: 'Salsa', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #043001;
+}
+
+.produto p{
+    padding: 10px;
+    text-align: left;
+}
+
+.produto img{
+    width: 120px;
+    border: 1px solid #043001;
+}
+
+.rodapé{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-family: 'Salsa', sans-serif;
+}
+
+.rodape1{
+    background-color: #F2E145;
+    padding: 10px 20px 10px 20px;
+}
+
+.rodape2{
+    background-color: #096F00;
+    padding: 10px 20px 10px 20px;
+}
+
+.rodape2 a{
+    text-decoration: none;
+    align-items: center;
+    color: #fff;
+}

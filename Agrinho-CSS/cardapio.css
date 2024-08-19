@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sansa', sans-serif;
+}
+
+.cesf-icon{
+    text-align: center;
+    width: 250px;
+    padding-left: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.destaque{
+    color: #043001;
+}
+
+nav a{
+    text-align: center;
+    padding: 0 10px 0 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #096F00;
+    font-family: 'Salsa';
+    font-size: 19px;
+}
+
+ion-icon{
+    font-size: 20px;
+    margin: auto;
+    color: rgb(39, 10, 10);
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Salsa', sans-serif;
+    color: #096F00;
+    background-color: #CAFFB1;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: solid 1px #096F00;
+}
+
+.titulo img{
+    width: 70px;
+}
+
+.salgado{
+    margin-top: 50px;
+    background-color: #B7D585;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #096F00;
+    text-decoration: none;
+    font-family: 'Salsa', sans-serif;
+    color: black;
+}
+
+.doces{
+    margin-top: 50px;
+    background-color: #B7D585;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #096F00;
+    text-decoration: none;
+    font-family: 'Salsa', sans-serif;
+    color: black;
+}
+
+.bebidas{
+    margin-top: 50px;
+    background-color: #B7D585;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #096F00;
+    text-decoration: none;
+    font-family: 'Salsa', sans-serif;
+    color: black;
+}
+
+.saladas{
+    margin-top: 50px;
+    background-color: #B7D585;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #096F00;
+    text-decoration: none;
+    font-family: 'Salsa', sans-serif;
+    color: black;
+}
+
+.container2 a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container2 img{
+    width: 10px;
+}

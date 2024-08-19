@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 102vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sansa', sans-serif;
+}
+
+.cesf-icon{
+    text-align: center;
+    width: 250px;
+    padding-left: 0px;
+}
+
+.qrcode img{
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid #043001;
+}
+
+.qrcode p{
+    font-family: 'Salsa', sans-serif;
+}
+
+.pedido{
+    width: 235px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pedido a{
+    text-decoration: none;
+    font-family: 'Salsa', sans-serif;
+    color: black;
+    margin: 10px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#cancelar{
+    background-color: #CB5656;
+}
+
+#confirmar{
+    background-color: #2CA531;
+}
+
+
+
+
+
