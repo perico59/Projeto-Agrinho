@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sansa', sans-serif;
+}
+
+.cesf-icon{
+    text-align: center;
+    width: 250px;
+    padding-left: 86px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.destaque{
+    color: #043001;
+}
+
+nav a{
+    text-align: center;
+    padding: 0 10px 0 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #096F00;
+    font-family: 'Salsa';
+    font-size: 19px;
+}
+
+ion-icon{
+    font-size: 20px;
+    margin: auto;
+    color: rgb(39, 10, 10);
+}
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Salsa', sans-serif;
+    color: #ffffff;
+    background-color: #096F00;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: solid 1px #096F00;
+}
+
+.foto{
+    margin-top: 50px;
+    background-color: lightgray;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.secao{
+    width: 100%;
+    background-color: #F2E782;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 12px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.secao p{
+    font-family: 'Salsa', sans-serif;
+}
+
+.sair{
+    padding: 0%;
+    margin: 30px;
+    font-family: 'Salsa';
+    color: #fff;
+}
+
+.sair p{
+    background-color: #BA0303;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
